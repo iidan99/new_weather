@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  tokenId: "GrJBcGLR9B5W0GpDbfTBIf6Blef2Z81m",
+  baseURL: "https://dataservice.accuweather.com"
 };
 
 /*

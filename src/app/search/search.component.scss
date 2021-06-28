@@ -1,0 +1,28 @@
+
+  input{
+    border-radius: 20px;
+    padding-left: 4rem;
+    height: 2rem;
+    width: 11rem;
+    outline: none;
+    position: relative;
+  }
+
+  .nav{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    &_img{
+      max-width: 2rem;
+      background-color: white;
+      position: absolute;
+      top: 10%;
+      left: 8%;
+      border-radius: 20px;
+      z-index: 2;
+      }
+    &_search{
+      position: relative;
+    }
+}
